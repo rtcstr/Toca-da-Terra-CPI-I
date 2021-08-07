@@ -1,0 +1,178 @@
+* {
+
+    /* reset navegator presets*/
+
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+html {
+    --white: #fdfdfd;
+    --black: #222222;
+    --green: #02D63B;
+    --light-gray: #f9f9f9;
+    
+    
+    font-family: 'Poppins', sans-serif;
+}
+
+
+main {
+    width: 70%;
+    margin: auto;
+}
+
+nav {
+    background-color: var(--white);
+    padding: 16px 8px;
+    display: flex;
+    justify-content: flex-end;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.05);
+    
+}
+
+nav a {
+    color: var(--black);
+    margin-right: 32px;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+nav a:hover {
+    color: rgba(0, 0, 0, 0.3) ;
+}
+
+img {
+    margin-bottom: 16px;
+}
+
+.about {
+
+    margin-bottom: 16px;
+    
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+
+
+h2 {
+    margin-bottom: 16px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 170%; 
+    margin-bottom: 32px;
+}
+
+.products {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-bottom: 32px;
+}
+
+
+.product {
+    padding: 16px;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.16);
+
+}
+
+.product-description {
+    display: flex;
+    justify-content: space-between;
+    height: 32px;    
+}
+
+.form {
+    max-width: 100%; 
+    background-color: #f9f9f9;
+    padding: 32px;
+}
+
+
+
+label {
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+
+input {
+    height: 32px;
+    padding: 0 8px;
+    margin: 8px 0;
+    border: 0.4px solid #f7f7f7;
+}
+
+
+fieldset legend {
+    margin-bottom: 16px;
+}
+fieldset input{
+    vertical-align: middle;    
+}
+
+fieldset {
+    margin-bottom: 16px;
+}
+
+select {
+    height: 32px;
+    padding: 0 8px;
+    margin: 8px 0;
+    border: 0.4px solid #f7f7f7;
+}
+
+textarea {
+    margin: 8px 0 16px 0;
+    border: 0.4px solid #f7f7f7;
+
+}
+
+.cancelar {
+    background-color: #E6EAF1 ;
+    color: var(--black);
+    border-radius: 4px;
+    width: 104px;
+    height: 40px;
+}
+
+
+.encomendar {
+    background-color: var(--green);
+    color: var(--white);
+    border-radius: 4px;
+    height: 40px;
+    padding: 8px 16px;
+}
+
+footer {
+    background-color: var(--black);
+    height: 32px;
+}
+
+footer p {
+    color: var(--white);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+footer p a {
+    color: var(--white);
+}
+
+footer p a:hover {
+    opacity: .5;
+}
